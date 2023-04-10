@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .profile-picture {
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .profile-picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .profile-info {
+        margin: 20px;
+        text-align: center;
+      }
+      
+      
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+        text-shadow: 2px 2px #ddd;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #444;
+        text-shadow: 2px 2px #ddd;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #666;
+        text-shadow: 1px 1px #ddd;
+      }
+
+      ul {
+        list-style: none;
+        font-size: 1.2rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+        color: #666;
+        text-shadow: 1px 1px #ddd;
+      }
+
+      strong {
+        font-weight: bold;
+        color: #333;
+        text-shadow: 2px 2px #ddd;
+      }
+
+      .trigger {
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .trigger:hover {
+        background-color: #2980b9;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+		
+
+		/* Style untuk pop-up form */
+		.form-container {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 999;
+			opacity: 0;
+			transition: opacity 0.2s ease-in-out;
+		}
+
+		.form-container.active {
+			opacity: 1;
+		}
+
+		.form-box {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			border-radius: 10px;
+			max-width: 500px;
+			text-align: center;
+			opacity: 0;
+			transition: opacity 0.2s ease-in-out;
+		}
+
+		.form-box.active {
+			opacity: 1;
+		}
+
+		.close-btn {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			font-size: 20px;
+			color: #333;
+			cursor: pointer;
+			transition: color 0.2s ease-in-out;
+		}
+
+		.close-btn:hover {
+			color: #999;
+		}
+
+		input[type="text"],
+		input[type="email"],
+		input[type="password"] {
+			display: block;
+			width: 100%;
+			margin: 10px auto;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+			font-size: 18px;
+			background-color: #f5f5f5;
+			color: #333;
+			text-align: center;
+			transition: background-color 0.2s ease-in-out;
+		}
+
+		input[type="text"]:hover,
+		input[type="email"]:hover,
+		input[type="password"]:hover {
+			background-color: #ddd;
+		}
+
+       .submit-btn {
+			display: block;
+			margin: 20px auto;
+			padding: 10px 20px;
+			background-color: #3498db;
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			cursor: pointer;
+			transition: background-color 0.2s ease-in-out;
+		}
+
+		.submit-btn:hover {
+			background-color: #2980b9;
+		}
+
+		/* Animasi untuk pop-up form */
+		@keyframes slideIn {
+			from {
+				transform: translateY(-100%);
+			}
+			to {
+				transform: translateY(0);
+			}
+		}
+
+		@keyframes slideOut {
+			from {
+				transform: translateY(0);
+			}
+			to {
+				transform: translateY(-100%);
+			}
+		}
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="profile-picture">
+        <img src="profile-picture.jpg" alt="Profile Picture" />
+      </div>
+      <div class="profile-info">
+        <h1>R Cahyo Tri Putrantoro</h1>
+        <h2>Wordpress Web Developer</h2>
+        <p>
+          WordPress Developer specializing in creating attractive and functional e-commerce websites, company profiles, and landing pages 
+	  for various types of businesses and organizations.
+        </p>
+        <ul
+      <li><strong>Email:</strong> mail.cahyo@gmail.com</li>
+      <li><strong>Phone:</strong> +62 85694857784</li>
+      <li><strong>Location:</strong> Depok Town, West Java </li>
+    </ul>
+    <button onclick="showForm()" class="trigger">Chat on WhatsApp</button>
+  </div>
+	<a href="https://mydrivesuperportofolios.on.drv.tw/Portofolio" class="trigger">
+  Portofolio-1
+</a>
+
+</div>
+
+
+	<script>
+		const trigger = document.querySelector('.trigger');
+		const formContainer = document.querySelector('.form-container');
+		const formBox = document.querySelector('.form-box');
+		const closeBtn = document.querySelector('.close-btn');
+
+		// Fungsi untuk button
+		function showForm() {
+		window.location.href = "https://wa.me/6285694857784?text=I'm%20interested%20in%20your%20skill";
+		}
+
+		
+		// Event listener untuk tombol trigger
+		trigger.addEventListener('click', showForm);
+
+		
+	</script>
+
+  </body>
+</html>
