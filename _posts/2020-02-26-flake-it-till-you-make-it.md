@@ -1,17 +1,34 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Learn it till you master it
+subtitle: Learn for better life by Me
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [books, test]
+tags: [Learn, Upskill]
 ---
 
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
+Belajar adalah suatu proses yang terus-menerus, tidak ada batasan waktu ataupun usia dalam belajar. Setiap orang memiliki cara yang berbeda dalam belajar dan menguasai suatu hal. Namun, ada beberapa tips yang dapat membantu dalam belajar hingga menguasai suatu hal.
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
+Mulailah dengan dasar
+Sebelum mempelajari hal yang lebih kompleks, pastikan Anda sudah memahami dasar-dasar terlebih dahulu. Hal ini akan membantu Anda memahami konsep yang lebih sulit dengan lebih mudah.
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+Fokus dan konsisten
+Belajar membutuhkan fokus dan konsistensi. Jadwalkan waktu untuk belajar secara teratur dan hindari gangguan yang dapat mengalihkan perhatian Anda.
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+Mencatat dan mempraktikkan
+Mencatat adalah cara efektif untuk membantu Anda memahami dan mengingat informasi yang telah dipelajari. Praktikkan apa yang telah dipelajari dengan melakukan latihan atau proyek kecil untuk memperkuat pemahaman Anda.
+
+Mencari sumber yang berbeda
+Mencari sumber yang berbeda seperti buku, video tutorial, atau kuliah dari pakar di bidang tersebut dapat membantu memperkaya pemahaman Anda tentang suatu topik.
+
+Minta bantuan jika diperlukan
+Jangan ragu untuk meminta bantuan jika Anda merasa kesulitan. Anda dapat meminta bantuan dari teman, guru, atau sumber belajar lainnya.
+
+Jangan takut melakukan kesalahan
+Kesalahan adalah bagian dari proses belajar. Jangan terlalu keras pada diri sendiri jika Anda melakukan kesalahan. Sebaliknya, gunakan kesalahan tersebut sebagai peluang untuk belajar dan meningkatkan pemahaman Anda.
+
+Tetap termotivasi
+Belajar hingga menguasai suatu hal membutuhkan waktu dan usaha. Tetap termotivasi dengan menetapkan tujuan yang jelas dan merayakan pencapaian kecil yang telah dicapai.
+
+Dalam belajar, yang terpenting adalah konsistensi dan ketekunan. Jadilah sabar dan jangan cepat putus asa jika menghadapi kesulitan. Ingatlah bahwa setiap orang memiliki tempo belajar yang berbeda dan yang terpenting adalah mengejar kemajuan Anda sendiri. Dengan menerapkan tips di atas, diharapkan dapat membantu Anda dalam belajar hingga menguasai suatu hal.
